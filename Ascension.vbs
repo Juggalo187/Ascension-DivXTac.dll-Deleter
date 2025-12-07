@@ -443,7 +443,7 @@ End If
 filePath = objFSO.GetParentFolderName(gamePath) & "\DivxTac.dll"
 
 ' Show DLL location for confirmation
-MsgBox "DLL monitoring location set to:" & vbCrLf & filePath, vbInformation, "Ready"
+'MsgBox "DLL monitoring location set to:" & vbCrLf & filePath, vbInformation, "Ready"
 
 ' -------------------------------------------------------------------
 ' MAIN LOGIC - DLL MONITORING AND CLEANUP
