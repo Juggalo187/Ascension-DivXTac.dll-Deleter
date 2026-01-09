@@ -19,9 +19,9 @@ Dim filePath, launcherPath, gamePath, settingsFileExists
 
 ' Settings
 Dim maxRuntime, normalLaunchTimeout, checkInterval
-maxRuntime = 7200 ' 2 hours in seconds (safety timeout)
+maxRuntime = 600 ' 10 minutes in seconds (safety timeout)
 normalLaunchTimeout = 30 ' Normal launch should start Ascension within 30 seconds
-checkInterval = 30 ' Check every 30 seconds during monitoring
+checkInterval = 2 ' Check every 2 seconds during monitoring
 
 ' -------------------------------------------------------------------
 ' FUNCTIONS
